@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521888164803",
+    "project_id": "alerta-defesa-civil-f8216",
+    "storage_bucket": "alerta-defesa-civil-f8216.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521888164803:android:826a103fe9b8320c65eb76",
+        "android_client_info": {
+          "package_name": "br.com.defesacivil.alerta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5MUB27InauEwBYTs-4dW_x8KdRf2px_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

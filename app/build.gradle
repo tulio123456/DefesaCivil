@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'br.com.defesacivil.alerta'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'br.com.defesacivil.alerta'
+        minSdk 26
+        targetSdk 35
+        versionCode 2
+        versionName '2.0'
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.core:core:1.15.0'
+
+    implementation platform('com.google.firebase:firebase-bom:34.19.0')
+    implementation 'com.google.firebase:firebase-messaging'
+}
